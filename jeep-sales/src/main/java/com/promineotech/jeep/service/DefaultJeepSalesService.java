@@ -13,7 +13,7 @@ public class DefaultJeepSalesService implements JeepSalesService {
  
   @Override
   public List<Jeep> fetchJeeps(JeepModel model, String trim) {
-    log.info("The fetchjeeps method was called with model={} and trim={}",
+    log.info("The fetchJeeps method was called with model={} and trim={}",
         model, trim);
     return null;
   }
