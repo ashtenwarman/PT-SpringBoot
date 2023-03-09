@@ -119,6 +119,7 @@ class FetchJeepTest {
 		  }
 	}
 	
+	//gives examples of improper inputs to be tested
 	 static Stream<Arguments> parametersForInvalidInput() {
 		 //@formatter:off
 		 return Stream.of(
@@ -195,7 +196,7 @@ class FetchJeepTest {
 }
 
 
-
+  //builds jeeps for test parameters
   private List<Jeep> buildExpected() {
     List<Jeep> list = new LinkedList<>();
 
